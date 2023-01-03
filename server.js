@@ -60,7 +60,7 @@ else {
   //----------------------------------
   // ADD SOCKET IO MODULES HERE:
   //----------------------------------
-  // var exampleSocket = require('./socket_modules/exampleSocket');
+  var exampleSocket = require('./socket_modules/exampleSocket');
   var netplayers = require('./socket_modules/netplayer');
   var chat = require('./socket_modules/chat');
   var globalvar = require('./socket_modules/globalvar');
@@ -97,7 +97,7 @@ else {
   //----------------------------------
   // BIND SOCKET IO MODULES HERE:
   //----------------------------------
-  // exampleSocket(io);
+  exampleSocket(io);
   netplayers(io);
   chat(io);
   globalvar(io);
