@@ -1,20 +1,20 @@
-MV Online Global Variables Documentation
+MV 在线全局变量文档
 ==========================
 
-Introduction
--------------
+介绍
+--------------
 
-The Online Global Variables Socket Module allows you to send Variable and Switch data to other players connected.
+在线全局变量套接字模块允许您向连接的其他玩家发送变量和开关数据。
 
-Installation
--------------
+安装
+--------------
 
-Make sure you have the `globalvar.js` file in your `socket_modules` folder.
+确保你的 `socket_modules` 文件夹中有 `globalvar.js` 文件。
 
-Add this line to the `ADD SOCKET IO MODULES HERE` section in the `server.js` file:
+将此行添加到“server.js”文件中的“ADD SOCKET IO MODULES HERE”部分：
 
 `var globalvar = require('./socket_modules/globalvar');`
 
-Add this line to the `BIND SOCKET IO MODULES HERE` section in the `server.js` file:
+将此行添加到 server.js 文件中的 BIND SOCKET IO MODULES HERE 部分：
 
 `globalvar(io);`

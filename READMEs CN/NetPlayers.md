@@ -1,20 +1,20 @@
-MV Net Players Documentation
+MV 网络播放器文档
 ==========================
 
-Introduction
--------------
+介绍
+--------------
 
-The Online Net Players Socket Module allows you to see other players on the same map
+Online Net Players Socket Module 允许您在同一张地图上看到其他玩家
 
-Installation
--------------
+安装
+--------------
 
-Make sure you have the `netplayer.js` file in your `socket_modules` folder.
+确保您的 `socket_modules` 文件夹中有 `netplayer.js` 文件。
 
-Add this line to the `ADD SOCKET IO MODULES HERE` section in the `server.js` file:
+将此行添加到“server.js”文件中的“ADD SOCKET IO MODULES HERE”部分：
 
 `var netplayers = require('./socket_modules/netplayer');`
 
-Add this line to the `BIND SOCKET IO MODULES HERE` section in the `server.js` file:
+将此行添加到 server.js 文件中的 BIND SOCKET IO MODULES HERE 部分：
 
-`netplayers(io);`
+`网络玩家（io）；`

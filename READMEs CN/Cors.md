@@ -1,16 +1,15 @@
-MV Cors Documentation
+MV Cors 文档
 ==========================
 
-Introduction
--------------
+介绍
+--------------
 
-`api_routes/Cors.js` allows you to your server cors cross domain
-`configurations/Cors.js` Configuration your cors domain
+`api_routes/Cors.js` 让你的服务器 cors 跨域
+`configurations/Cors.js` 配置你的 cors 域
 
-Configuration
--------------
+配置
+--------------
 
-Add this line to the `API SECTION` section in the `server.js` file:
+将此行添加到 `server.js` 文件中的 `API SECTION` 部分：
 
 `app.use('AllowCrossDomain',require('./api_routes/cors'));`
-

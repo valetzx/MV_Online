@@ -1,20 +1,20 @@
-MV Online Chat Documentation
+MV在线聊天文档
 ==========================
 
-Introduction
--------------
+介绍
+--------------
 
-The Online Chat Socket Module allows you to communicate with other players in your game using an in game chat window.
+在线聊天套接字模块允许您使用游戏内聊天窗口与游戏中的其他玩家交流。
 
-Installation
--------------
+安装
+--------------
 
-Make sure you have the `chat.js` file in your `socket_modules` folder.
+确保你的 `socket_modules` 文件夹中有 `chat.js` 文件。
 
-Add this line to the `ADD SOCKET IO MODULES HERE` section in the `server.js` file:
+将此行添加到“server.js”文件中的“ADD SOCKET IO MODULES HERE”部分：
 
 `var chat = require('./socket_modules/chat');`
 
-Add this line to the `BIND SOCKET IO MODULES HERE` section in the `server.js` file:
+将此行添加到 server.js 文件中的 BIND SOCKET IO MODULES HERE 部分：
 
-`chat(io);`
+`聊天（io）；`
