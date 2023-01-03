@@ -1,14 +1,22 @@
 MV Online Core Documentation
 ==========================
 
-这是一个RPGMakerMV的插件，用来多人联机，这里仓库改一些内容，将其可以在replit上运行，并使用本地redis，及mongodb数据库，关闭了默认邮箱验证
-
 Requirements
 -------------
-Node.js（with replit） and RPGMaker MV
+Node.js and RPGMaker MV
 
 Installation
 -------------
+
+Deploy to Heroku here:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Nelderson/MV_Online/tree/master)
+
+Use `git clone` or download and unzip to the directory of your choice.
+
+Run `npm install` to download all dependencies for the server. Use `npm install -d` for windows users
+
+After configuring the server run `npm start` to start the server
 
 
 Server Configuration

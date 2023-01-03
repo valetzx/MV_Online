@@ -58,7 +58,7 @@ router.post('/register', function(req, res) {
         Account.register(new Account({
             username : req.body.username,
             email : req.body.email,
-            activated : false,
+            activated : true,
             actCode: actCode,
             socketId: null,
             rank: 0
